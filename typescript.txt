@@ -1,0 +1,18 @@
+ts打包編譯js
+
+一般語法tsc src/sandbox.ts (檔案路徑)
+
+tsconfig方法
+
+1.建立tsconfig.json
+tsc --init
+
+解開下列語法並設定路徑：
+    "outDir": "./public",
+    "rootDir": "./src",  
+
+2.編譯
+tsc
+
+動態編譯
+tsc -w
